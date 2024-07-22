@@ -1,0 +1,69 @@
+/*logo mapa e input*/
+
+form {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+form i,
+form button {
+    font-size: 28px;
+
+}
+
+form div {
+    /*div que tem o meu input*/
+    flex: 1;
+
+    display: flex;
+    align-items: center;/*Alinhou os elementos dentro da div*/
+    column-gap: 8px;/*Espaço do icone de mapa e o input*/
+  
+
+
+    padding: 8px; 
+    border-radius: 8px;
+    border: 1px solid var(--border);
+
+}
+
+form div input {
+    /*Input dentro da div*/
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+    width: 100%;
+    font-size: px;
+    letter-spacing: 0.5px;
+    /*Espaço entre as letras do input*/
+}
+
+form div input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+
+
+
+
+}
+
+/*Lupa*/
+
+form button {
+    width: 45px;
+    height: 45px;
+
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /*Alilhamento vertical da propriedade displey flex */
+    justify-content: center;
+    /*Alinhamento horizontal*/
+    cursor: pointer;
+}
